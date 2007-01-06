@@ -1,4 +1,5 @@
 #summary xCross Help
+#labels Featured
 
 = xCross Help =
 
