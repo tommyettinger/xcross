@@ -56,3 +56,32 @@ A xCross binary size consists in the system-specific binary plus the bytecode si
   * Windows : 256 KB
   * Linux : 473 KB
   * OSX : 746 KB (Universal, it contains both PPC and Intel versions)
+
+= Compiling xCross =
+
+  * Download [http://nekovm.org Neko CVS] 
+{{{
+    cvs -d:pserver:anonymous@cvs.motion-twin.com co neko
+}}}
+  * Download [http://code.google.com/p/xcross/source xCross SVN] in neko/libs/xcross
+{{{
+    cd neko/libs
+    svn checkout http://xcross.googlecode.com/svn/trunk/ xcross
+}}}
+  * Compile :
+    * for Windows, use VS.Net 2003 and open xcross.sln , you might need MSVCRT60.LIB which is the VC++ 6.0 MSVCRT DLL interface (prevent requiring MSVCRT71.DLL)
+    * for Linux/OSX, install the following libraries :
+      * libgc-dev
+      * libpcre3-dev
+      * libz-dev
+      * libgtk2.0-dev (for linux only)
+    * for Linux, run the following commands :
+{{{
+    cd xcross
+    make linux   
+}}}
+    * for OSX, run the following commands :
+{{{
+    cd xcross
+    make osx
+}}}
