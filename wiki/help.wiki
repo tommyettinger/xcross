@@ -53,9 +53,9 @@ For further instructions, watch the [http://haxe.org/api haXe API] and ask on th
 
 A xCross binary size consists in the system-specific binary plus the bytecode size. Bytecode size tends to be quite low, around 200KB for a good application. System-specific binaries size are currently the following :
 
-  * Windows : 256 KB
-  * Linux : 473 KB
-  * OSX : 746 KB (Universal, it contains both PPC and Intel versions)
+  * Windows : 112 KB
+  * Linux : 192 KB
+  * OSX : 300 KB (Universal, it contains both PPC and Intel versions)
 
 = Compiling xCross =
 
