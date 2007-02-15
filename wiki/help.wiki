@@ -87,3 +87,5 @@ Compile :
     cd xcross
     make osx
 }}}
+
+To reduce xcross binary size, you can use [http://upx.sourceforge.net UPX] : at least 2.92beta for Linux at at least current SVN (should become 2.94) for OSX.
