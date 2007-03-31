@@ -26,7 +26,7 @@ xCross distribution includes three versions of the VM binaries : for Windows, Li
 {{{
 class Test {
     static function main() {
-         trace("Hello World !");
+         xcross.Api.message("Hello","Hello World !");
     }
 }
 }}}
