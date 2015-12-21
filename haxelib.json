@@ -1,0 +1,13 @@
+{
+  "name": "xcross",
+  "license": "GPL",
+  "tags": [],
+  "description": "xCross is a package to cross-build zero-dependency haXe applications",
+  "contributors": ["ncannasse", "tommyettinger"],
+  "releasenote": "Updated for Neko 2.0.0 and haXe 3.0.0",
+  "version": "1.06",
+  "url": "https://github.com/tommyettinger/xcross",
+  "dependencies": {
+
+  }
+}
