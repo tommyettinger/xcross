@@ -4,8 +4,8 @@ xCross will create three binaries, for Windows, OSX (Universal) and Linux with n
 
 To install :
 
-- install haXe + Neko from http://haxe.org (needs to be 1.0)
-- run "haxelib install xcross"
+- install haXe + Neko from http://haxe.org (~~needs to be 1.0~~ never mind, master seems to be ported to haXe 3.0)
+- run "haxelib install xcross" (may require 1.0 if you aren't building from source... like a pro)
 
 To run :
 
@@ -18,6 +18,6 @@ xCross includes / statically link :
 - the Boehm GC used by NekoVM (gc.dll or libgc.so)
 - the Neko standard library (std.ndll) which contains filesystem access, sockets, threads, etc.
 - the zlib.ndll and regexp.ndll libraries (for zip and regular expressions support)
-- a very tiny UI toolkit used by haXe Installer (see http://code.google.com/p/xcross/source/browse/#svn%2Ftrunk%2Fxcross)
+- a [very tiny UI toolkit used by haXe Installer](https://github.com/tommyettinger/xcross/tree/master/xcross)
 
 If you want to use additional libraries, you'll have to make a custom build of xCross.
